@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css'; // css import
+import styles from './calendar.module.css';
 
-export default function MyApp() {
+function MyApp() {
   const [value, onChange] = useState(new Date());
 
   return (
     <div>
-      <Calendar onChange={onChange} value={value} locale='ko'/>
+      <Calendar style={{styles}} onChange={onChange} value={value} locale='en'/>
     </div>
   );
 }
+
+export default MyApp;
