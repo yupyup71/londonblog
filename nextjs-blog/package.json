@@ -6,9 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^105.0.0",
+    "i18next": "^22.4.15",
     "next": "latest",
+    "next-i18next": "^13.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-calendar": "^4.2.1",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.2.2"
   },
   "devDependencies": {
     "@types/node": "20.1.7",

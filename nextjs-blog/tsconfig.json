@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/posts/calendarpg.js", "pages/posts/calendarpg.js"  ],
   "exclude": [
     "node_modules"
   ]
